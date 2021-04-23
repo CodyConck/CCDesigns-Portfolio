@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: lightslategray;
+}
+
+header h1 a {
+    color: mediumblue;
+    display: flex;
+}
+
+header nav ul li a {
+    color: mediumblue;
+    padding: 10px 15px;
+    font-weight:bold;
+    font-size: large;
+    text-decoration: none;
+   
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    color: lightslategray;
+}
+
+.hero {
+    background-image:url(./images/PortfolioHero.jpg);
+}
+
+.main-content {
+    background-color: blanchedalmond;
+    display: flexbox;
+    flex-wrap: wrap;
+}
