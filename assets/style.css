@@ -70,6 +70,10 @@ section {
     text-shadow: 2px 2px blue;
 }
 
+#about-me h2 {
+    border-bottom: 2px solid black;
+}
+
 .get-to-know {
     background-color: blanchedalmond;
     display: flex;
