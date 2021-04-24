@@ -2,10 +2,31 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: lightslategray;
 }
+ header {
+    display: inline-flex;
+    align-items: flex-end;
+ }
+ 
+.personal-info {
+    display: inline-flex;
+}
 
-header h1 a {
+header h1 {
     color: mediumblue;
     display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header img {
+    border-radius: 50% 50%;
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    position: absolute;
+    right: 0;
 }
 
 header nav ul li a {
@@ -24,19 +45,62 @@ header nav ul {
     list-style: none;
 }
 
+
+
 section {
     display: flex;
-    flex-wrap: wrap;
     padding: 60px;
     color: lightslategray;
+    
 }
+
 
 .hero {
     background-image:url(./images/PortfolioHero.jpg);
+    height: 60px;
+}
+
+
+.hero-welcome {
+    right: 25px;
+    bottom: 30px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px blue;
 }
 
 .main-content {
     background-color: blanchedalmond;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
+}
+
+#app-tabs {
+    max-width: 1080px;
+    height: fit-content;
+    margin: 100px 0 100px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.app {
+    height: 100px; 
+    width: 150px;
+    padding: 15px;
+    background-color: rgb(6, 42, 43);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.larger {
+    height: 200px;
+    width: 250px;
+}
+
+#contact-me {
+   
 }
