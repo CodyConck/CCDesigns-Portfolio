@@ -101,6 +101,17 @@ section {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-end;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+#app-tabs a {
+    color: white;
+    text-shadow: 2px 2px blue;
+    text-decoration: none;
 }
 
 .app {
@@ -120,6 +131,8 @@ section {
     width: 780px;
     height: 200px;
 }
+
+
 
 .TBD {
     width: 500px;
