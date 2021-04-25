@@ -29,8 +29,9 @@ header nav {
     right: 0;
 }
 
-.navigation a:hover {
+.navigation>li> a:hover {
     background: beige;
+    border-radius: 10px;
 }
 
 header nav ul li a {
@@ -121,6 +122,7 @@ section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
     align-items: flex-end;
     font-size: x-large;
     font-style: italic;
@@ -155,6 +157,7 @@ section {
 
 .TBD {
     width: 500px;
+    margin: 10px;
     background-image: url("./images/Construction\ Site.jpeg");
     background-size: cover;
 }
