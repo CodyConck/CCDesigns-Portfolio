@@ -29,6 +29,10 @@ header nav {
     right: 0;
 }
 
+.navigation a:hover {
+    background: beige;
+}
+
 header nav ul li a {
     color: mediumblue;
     padding: 10px 15px;
@@ -71,7 +75,7 @@ section {
 }
 
 #about-me h2 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid;
 }
 
 .get-to-know {
@@ -86,6 +90,10 @@ section {
     flex-wrap: wrap;
 }
 
+#my-work h2 {
+    border-bottom: 2px solid;
+}
+
 .get-in-touch {
     background-color: blanchedalmond;
     color: mediumblue;
@@ -93,6 +101,15 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.get-in-touch h2 {
+    border-bottom: 2px solid;
+}
+
+.get-in-touch h3 {
+    color: lightslategrey;
+    font-style: italic;
 }
 
 
@@ -131,9 +148,7 @@ section {
     height: 200px;
     width: 780px;
     background-image: url("./images/hero-bg.jpeg");
-    background-size: cover;
-    width: 780px;
-    height: 200px;
+    background-size:cover
 }
 
 
