@@ -155,4 +155,6 @@ section {
 
 .TBD {
     width: 500px;
+    background-image: url("./images/Construction\ Site.jpeg");
+    background-size: cover;
 }
