@@ -4,8 +4,7 @@
 A website that offers a glimpse into my designs. 
 
 ## Screenshot
-![Screenshot](Screen Shot 2021-04-29 at 1.09.12 PM.png)
-
+![Screenshot](assets/images/Screenshot.png)
 ## Built With
 * HTML
 * CSS
