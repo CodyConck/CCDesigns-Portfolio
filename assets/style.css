@@ -162,3 +162,10 @@ section {
     background-image: url("./images/Construction\ Site.jpeg");
     background-size: cover;
 }
+
+.Brewed {
+    width: 500px;
+    margin: 10px;
+    background-image: url("./images/Brewed-Force.png");
+    background-size: cover;
+} 
