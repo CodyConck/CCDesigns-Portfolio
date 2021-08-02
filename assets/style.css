@@ -169,3 +169,10 @@ section {
     background-image: url("./images/Brewed-Force.png");
     background-size: cover;
 } 
+
+.Art {
+    width: 500px;
+    margin: 10px;
+    background-image: url("./images/CollageSoA.png");
+    background-size: cover;
+}
